@@ -31,4 +31,4 @@ WORKDIR /tmp
 RUN rm -rf ./*
 
 #move to home directory
-WORKDIR ~
+RUN cd ~
